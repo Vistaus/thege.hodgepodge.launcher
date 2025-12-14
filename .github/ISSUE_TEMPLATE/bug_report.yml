@@ -50,7 +50,7 @@ body:
     attributes:
       label: Environment (versions)
       description: |
-        You can find this information in System Configuration > About this system or `kinfo` in CLI.
+        For the launcher version, right-click the launcher icon, choose 'Configure Hodgepodge Application Launcher', then 'About'. The rest of the information can be found by opening the 'System Configuration' application and clicking on 'About this system' sidebar item or by typing `kinfo` in a terminal.
         Examples:
           - **Hodgepodge Launcher**: 2.0.8
           - **KDE Plasma**: 6.5.3
@@ -59,12 +59,12 @@ body:
           - **Kernel Version:** 6.12.61-1-MANJARO (64-bit)
           - **Graphics Platform**: X11
       value: |
-          - Hodgepodge Launcher:
-          - KDE Plasma:
-          - KDE Frameworks:
-          - Qt:
-          - Kernel Version:
-          - Graphics Platform:
+          - Hodgepodge Launcher: 
+          - KDE Plasma: 
+          - KDE Frameworks: 
+          - Qt: 
+          - Kernel Version: 
+          - Graphics Platform: 
       render: markdown
     validations:
         required: true
